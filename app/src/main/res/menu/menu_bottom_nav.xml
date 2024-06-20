@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="홈"
+        android:icon="@drawable/home_asset"></item>
+    <item
+        android:id="@+id/calender"
+        android:title="calender"
+        android:icon="@drawable/calender"></item>
+    <item
+        android:id="@+id/posture"
+        android:title="자세"
+        android:icon="@drawable/posture"></item>
+    <item
+        android:id="@+id/info"
+        android:title="api"
+        android:icon="@drawable/information"></item>
+</menu>

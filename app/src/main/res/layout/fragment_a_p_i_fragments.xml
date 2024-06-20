@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.APIFragments"
+    android:background="@color/pastelBlue"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사물로그 조회 API URL"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:layout_marginTop="4dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textUri"
+        android:hint="https://xxxxxxxxxx.execute-api.ap-northeast-2.amazonaws.com/prod/devices"
+        android:textSize="30dp"
+        android:id="@+id/listThingsURL"
+        android:visibility="invisible"
+        />
+
+        <Button
+            android:id="@+id/listLogsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="로그 조회"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

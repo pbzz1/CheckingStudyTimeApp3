@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name ="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"></style>
+    <style name = "AppLoadingTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+<!--        <item name="android:windowBackground">@drawable/appicon1</item>-->
+        <item name="colorPrimary">#00FF7F</item>
+        <item name="colorPrimaryDark">#00FF7F</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
